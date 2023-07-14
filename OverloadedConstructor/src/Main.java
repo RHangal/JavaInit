@@ -16,6 +16,10 @@ public class Main {
         //toString returns address but can overide to represent text representation of object
         System.out.println(car1.toString());
         System.out.println(car1);
+
+        //list of objects
+        Pizza[] partyOrder = new Pizza[3];
+        Pizza[] newPartyOrder = {pizza1, pizza2};
         }
 
 
